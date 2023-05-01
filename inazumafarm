@@ -1,0 +1,23 @@
+while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.855103, 286.169067, -268.457275, -0.780755699, -2.23350827e-09, -0.624836445, 1.36316003e-09, 1, -5.27786659e-09, 0.624836445, -4.97247621e-09, -0.780755699)
+ 
+ 
+local N=game:GetService("VirtualInputManager")
+wait(0.2)
+N:SendKeyEvent(true,"E",false,game)
+wait(0.2)
+N:SendKeyEvent(true,"E",false,game)
+wait(0.25)
+ 
+wait(15)
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").GettingBoxPart.CFrame
+ 
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.855103, 286.169067, -268.457275, -0.780755699, -2.23350827e-09, -0.624836445, 1.36316003e-09, 1, -5.27786659e-09, 0.624836445, -4.97247621e-09, -0.780755699)
+wait(0.2)
+N:SendKeyEvent(true,"E",false,game)
+wait(0.2)
+N:SendKeyEvent(true,"E",false,game)
+wait(0.25)
+end
